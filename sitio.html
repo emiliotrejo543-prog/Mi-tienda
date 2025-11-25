@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Gorras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f5f5f5;
+        }
+        header {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .productos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #ff6600;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+	<header style="background:#111; color:white; padding:15px 30px; display:flex; justify-content:space-between; align-items:center;">
+<div style="display:flex; align-items:center; gap:20px;">
+<img src="https://images-platform.99static.com//ogktEYwAhLFveF8PzRVcMx8xYeQ=/0x0:500x500/fit-in/500x500/99designs-contests-attachments/151/151778/attachment_151778101" alt="" alt="Logo" style="width:300px; height:auto; border-radius:8px;">
+<!-- Menú junto al logo -->
+<nav style="display:flex; gap:20px;">
+<a href="#catalogo" style="color:white; text-decoration:none; font-size:18px;">Catalogo</a>
+<a href="#Proposito" style="color:white; text-decoration:none; font-size:18px;">Proposito</a>
+<a href="#contacto" style="color:white; text-decoration:none; font-size:18px;">Contacto</a>
+</nav>
+</div>
+<!-- Nombre a la derecha -->
+<h2 style="margin:0;">Under the lights</h2>
+</header>
+    </header>
+
+    <section id="catalogo" class="productos">
+        <div class="card">
+            <img src="https://m.media-amazon.com/images/I/71OnCGaCw-L.jpg" alt="Gorra 1">
+            <h3>Gorra Pirrelli F1 Prodium 1st</h3>
+            <p>$1500 MXN</p>
+            <a href="#" class="btn" onclick="agregarAlCarrito('Gorra de los yankees casual', 1499)">Agregar al carrito</a>
+
+        </div>
+
+        <div class="card">
+            <img src="https://site-product.innovasport.com/img-test/60551314/60551314_1-1200x1200.jpg" alt="Gorra 2">
+            <h3>Gorra Deportiva de los astros de beisbol</h3>
+            <p>$1899 MXN</p>
+             <a href="#" class="btn" onclick="agregarAlCarrito('Gorra Deportiva de los astros de beisbol', 1899)">Agregar al carrito</a>
+        </div>
+
+        <div class="card">
+            <img src="https://dpjye2wk9gi5z.cloudfront.net/wcsstore/ExtendedSitesCatalogAssetStore/images/catalog/zoom/4016190-0202V1.jpg" alt="Gorra 3">
+            <h3>Gorra de los yankees casual</h3>
+            <p>$1499 MXN</p>
+            <a href="#" class="btn" onclick="agregarAlCarrito('Gorra de los yankees casual', 1499)">Agregar al carrito</a>
+
+        </div>
+       
+ 	 <div class="card">
+            <img src="https://www.hatzonefg.mx/cdn/shop/files/D602C90B-91FC-42C6-B821-3325156755B9.jpg?v=1716831541&width=1920" alt="Gorra 4">
+            <h3>Gorra Alucin Trucker Premium</h3>
+            <p>$999 MXN</p>
+            <a href="#" class="btn" onclick="agregarAlCarrito('Gorra Alucin Trucker Premium', 999)">Agregar al carrito</a>
+	</div>
+	<div class="card">
+            <img src="https://www.thesneakerone.com/45616-large_default/GORRA-NEW-ERA-NBA-ALL-OVER-BLK-60285213.jpg" alt="Gorra 4">
+            <h3>Gorra New Era NBA all over</h3>
+            <p>$1999 MXN</p>
+            <a href="#" class="btn" onclick="agregarAlCarrito('Gorra New Era NBA all over', 1999)">Agregar al carrito</a>
+	</div>
+	<div class="card">
+            <img src="https://site-product.innovasport.com/img-test/60508557/60508557_1-300x300.jpg" alt="Gorra 4">
+            <h3>Gorra New Era 59Fifty Yankees Series Retro</h3>
+            <p>$999 MXN</p>
+            <a href="#" class="btn" onclick="agregarAlCarrito('Gorra New Era 59Fifty Yankees Series Retro', 999)">Agregar al carrito</a>
+	</div>
+	<div class="card">
+            <img src="https://mghatsmx.myshopify.com/cdn/shop/files/4B960F40-59FB-460E-B832-B9086237E3CC_webp.jpg?v=1723011893&width=1445" alt="Gorra 4">
+            <h3>DANDY HATS X RUDE AWAKENINGS</h3>
+            <p>$899 MXN</p>
+            <a href="#" class="btn" onclick="agregarAlCarrito('DANDY HATS X RUDE AWAKENINGS', 899)">Agregar al carrito</a>
+	</div>
+	<div class="card">
+            <img src="https://site-product.innovasport.com/img-test/14350990/14350990_1-300_x_300.jpg" alt="Gorra 4">
+            <h3>Gorra New Era 39THIRTY Sultanes de Monterrey</h3>
+            <p>$799 MXN</p>
+            <a href="#" class="btn" onclick="agregarAlCarrito('Gorra New Era 39THIRTY Sultanes de Monterrey', 799)">Agregar al carrito</a>
+	</div>
+	<div class="card">
+            <img src="http://www.newera.mx/cdn/shop/files/60577637_59FIFTY_NEWERA_FLOWERS_BLK_3QL_1200x1200.png?v=1716332336" alt="Gorra 4">
+            <h3Gorra de New Era Floral 59FIFTY Cerrada Negra ></h3>
+            <p>$999 MXN</p>
+            <a href="#" class="btn" onclick="agregarAlCarrito('Gorra de New Era Floral 59FIFTY Cerrada Negra ', 999)">Agregar al carrito</a>
+	
+    </section>
+	<section id="Proposito" style="padding:40px; text-align:center; background:#ffe5cc;">
+	<h2>Proposito</h2>
+	<p>Somos un grupo pequeño que lo que quiere es destacarse en un mercado lleno de lugares que nos pueden igualar pero eso para nosotros nos hace diferentes donde nosotros nos ponemos con la accesibilidad hacia nuestros clientes y ajustarnos a precios que otros lugares no tienen.</p>
+	</section>
+
+
+	<!-- Sección Contacto -->
+	<section id="contacto" style="padding:40px; text-align:center; background:#ddd;">
+	<h2>Contacto y Ubicación</h2>
+	<p>Puedes encontrarnos en:</p>
+	<p><strong>Av. Principal #123, Ciudad de México</strong></p>
+	<p>Horario: Lunes a Sábado de 11:00 AM a 8:00 PM</p>
+	<p>Teléfono: 55-1234-5678</p>
+
+
+	<!-- Mapa Google -->
+	<iframe
+	src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.210469613972!2d-99.133208!3d19.432607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff36f1234567%3A0xabcd123456789ef!2sCDMX!5e0!3m2!1ses!2smx!4v0000000000"
+	width="80%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
+	</iframe>	
+	</section>
+
+    <footer>
+        <p>Under the lights</p>
+	<p>"Aunque estes en la oscuridad vas a brillar"</p>
+    </footer>
+    <script>
+        let carrito = [];
+
+        function agregarAlCarrito(nombre, precio) {
+            carrito.push({nombre, precio});
+            alert(nombre + " agregado al carrito");
+            actualizarCarrito();
+        }
+
+        function actualizarCarrito() {
+            let lista = document.getElementById("listaCarrito");
+            lista.innerHTML = "";
+            let total = 0;
+
+            carrito.forEach(item => {
+                let li = document.createElement("li");
+                li.textContent = item.nombre + " - $" + item.precio + " MXN";
+                lista.appendChild(li);
+                total += item.precio;
+            });
+
+            document.getElementById("totalCarrito").textContent = "Total: $" + total + " MXN";
+        }
+    </script>
+
+    <div style="position: fixed; bottom: 10px; right: 10px; background: white; padding: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.3); width: 250px;">
+        <h3>Carrito</h3>
+        <ul id="listaCarrito"></ul>
+        <p id="totalCarrito">Total: $0 MXN</p>
+    </div>
+</body>
+</html>
